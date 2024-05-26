@@ -1,0 +1,13 @@
+# google-api-python-client
+django
+djangorestframework
+oauth2client
+google-auth>=2.0.0,<3.0.0
+google-auth-oauthlib>=0.4.0,<1.0.0
+google-auth-httplib2>=0.1.0,<1.0.0
+google-api-python-client>=2.0.0,<3.0.0
+urllib3>=1.20,<1.25
+six>=1.15.0,<2.0.0
+google-api-core>=0.1.1,<2.0.0dev
+botocore>=1.12.148,<2.0.0
+google-cloud-storage>=1.10.0,<2.0.0

@@ -1,0 +1,41 @@
+{
+    "rule1": {
+        "predicate": "ALL",
+        "criteria": [
+            {
+                "name": "from_email",
+                "action": "contains",
+                "value": "shivamkumarsingh10000@gmail.com"
+            },
+            {
+                "name": "to_email",
+                "action": "contains",
+                "value": "shivam967k@gmail.com"
+            }
+        ],
+        "action": {
+            "addLabelIds": [
+            ],
+            "removeLabelIds": [
+                "UNREAD",
+                "STARRED"
+            ]
+        }
+    },
+    "rule2": {
+        "predicate": "ANY",
+        "criteria": [
+            {
+                "name": "received_at",
+                "action": "gt",
+                "value": 2
+            }
+        ],
+        "action": {
+            "addLabelIds": [
+                "STARRED"
+            ],
+            "removeLabelIds": []
+        }
+    }
+}
