@@ -13,4 +13,4 @@ A standalone Python script that integrates with Gmail API and performs some rule
     - Based on the rule defined in rule.json it will do the operation.
 
 ### Demo video
-[![Watch the video](https://i.sstatic.net/Vp2cE.png)](https://youtu.be/vt5fpE0bzSY)
+[![Watch the video](https://github.com/shivam896k/happyfox/blob/main/demo.mkv)](https://github.com/shivam896k/happyfox/blob/main/demo.mkv)
