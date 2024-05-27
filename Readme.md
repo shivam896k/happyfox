@@ -14,8 +14,6 @@ A standalone Python script that integrates with Gmail API and performs some rule
     - Based on the rule defined in rule.json it will do the operation.
 
 
-## Due to some technical issue I am not able to record my voice. that's why I haven't created the code implementation demo. Have wrote my code structure in below paragraph.
-
 ### Project structure
 - In `models.py` file table structure is defined.
 - In `utils/email_helper.py` email helper methods such as `fetch email` operation is defined.
@@ -23,5 +21,9 @@ A standalone Python script that integrates with Gmail API and performs some rule
 - python script `fetch_email.py` is responsible for fetching emails and storing it in db.
 - python script `process_email.py` is responsible for doing filter based on `rule.json` and applying appropriate action on them. 
 
+
+### Code implementation demo video
+[![Watch the video](https://www.youtube.com/watch?v=jINsUX01M-w&ab_channel=ShivamSingh)](https://www.youtube.com/watch?v=jINsUX01M-w&ab_channel=ShivamSingh)
+
 ### Demo video
-[![Watch the video](https://www.youtube.com/watch?v=J2DRbrixkJ8&ab_channel=ShivamSingh)](https://www.youtube.com/watch?v=J2DRbrixkJ8&ab_channel=ShivamSingh)
+[![Watch the video](https://www.youtube.com/watch?v=F2BTlDlspk4)](https://www.youtube.com/watch?v=F2BTlDlspk4)

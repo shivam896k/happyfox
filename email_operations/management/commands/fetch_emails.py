@@ -10,4 +10,3 @@ class Command(BaseCommand):
         emails = email_helper.get_emails()
         for email in emails:
             Mail(**email).save()
-            # email_helper.mark_email_as_read(email['message_id'])

@@ -8,4 +8,3 @@ class Mail(models.Model):
     message = models.TextField()
     received_at = models.DateTimeField()
     message_id = models.TextField()
-

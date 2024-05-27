@@ -48,8 +48,7 @@ class EmailHelper:
                     m_date = (date_parse.date())
                     email_data['received_at'] = str(m_date)
             try:
-                parts = payload.get('parts')[0] 
-                print('parts', parts)
+                parts = payload.get('parts', [None])[0] or payload
                 data = parts['body']['data'] 
                 data = data.replace("-","+").replace("_","/") 
                 decoded_data = base64.b64decode(data) 
